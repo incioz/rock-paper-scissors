@@ -3,5 +3,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock, Paper, Scissors</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mali:wght@300&display=swap" rel="stylesheet">
     <script src="game.js"></script>
 </head>
+<body>
+    <div class="container">
+        
+        <div class="heading-section">
+            <div class="big-header">Rock, Paper, Scissors?</div>
+        </div>
+
+        <div class="game-container">
+            <div class="main-box">
+                <div class="label">PLAYER</div>
+                <div class="info">
+                    <img class="logo" src="images/user.png">
+                    <div class="score" id="player-score">Score: 0</div>
+                </div>
+                <div class="buttons-container">
+                    <div class="button" id="player-rock">
+                        <div class="button-text">Rock</div>
+                        <img class="button-img" src="images/rock.png">
+                    </div>
+                    <div class="button" id="player-paper">
+                        <div class="button-text">Paper</div>
+                        <img class="button-img" src="images/paper.png">
+                    </div>
+                    <div class="button" id="player-scissors">
+                        <div class="button-text">Scissors</div>
+                        <img class="button-img" src="images/scissors.png">
+                    </div>
+                </div>
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="main-box">
+                <div class="label">COMPUTER</div>
+                <div class="info">
+                    <img class="logo" src="images/robot.png">
+                    <div class="score" id="computer-score">Score: 0</div>
+                </div>
+                <div class="buttons-container">
+                    <div class="button" id="com-rock">
+                        <div class="button-text">Rock</div>
+                        <img class="button-img" src="images/rock.png">
+                    </div>
+                    <div class="button" id="com-paper">
+                        <div class="button-text">Paper</div>
+                        <img class="button-img" src="images/paper.png">
+                    </div>
+                    <div class="button" id="com-scissors">
+                        <div class="button-text">Scissors</div>
+                        <img class="button-img" src="images/scissors.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
